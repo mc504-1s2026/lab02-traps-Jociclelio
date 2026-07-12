@@ -135,4 +135,6 @@ void serial_irq_enable();
  */
 void serial_irq_disable();
 
+u8 serial_read_byte();
+
 #endif
